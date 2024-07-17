@@ -1,0 +1,315 @@
+
+
+header{
+   
+    background-color: #1E172F;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+
+}
+header nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.section1{
+    display: flex;
+
+}
+.section2{
+    width: 50%;
+    background-position: left;
+  display: flex;
+  flex-direction: column;
+    background-color: rgb(46, 37, 80);
+    color: aliceblue;
+    align-items: center;
+}
+.section2 h1{
+ font-size: 80px;
+ width: 200px;
+}
+.section2 p {
+    font-size: 35px;
+    width: 400px;
+}
+
+.section3{
+    width: 50%;
+    background-position: right;
+    background-image: url("../assets/images/hojasFondo.jpg");
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.section4 h2{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #F41486;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.container .box1 img{
+    width: 600px;
+}
+
+.box2{
+    width:40pc;
+    font-size: 25px;
+    
+}
+.box2 h3{
+    color: #C34D8A;
+}
+
+.box2 h4{
+    color: #F2228C;
+}
+
+.box2 span{
+    color: #F2228C;
+}
+.section5{
+    background-color: #1E172F;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.section5 h2{
+    font-size: 60px;
+
+}
+
+.section5 p{
+    display: flex;
+    text-align: center;
+  
+    font-size: 30px;
+}
+
+.color2{
+    color: #F13294;
+}
+.color3{
+    background-color:  #F13294 ;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content:center ;
+}
+.box3 {
+ background-color: #FFFFFF;
+ width: 300px;
+ height: 503px;
+ margin-right: 30px;
+ color: black;
+ display: flex;
+
+flex-direction: column;
+margin-bottom: 10px;
+
+
+}
+
+.box3 p {
+    font-size: 10px;
+    display: flex;
+   
+}
+.color  {
+    background-color: #F5F5F5;
+    
+}
+.color {
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.color p{
+    font-size: 15px;
+}
+
+.color button{
+    width: 100px;
+    height: 30px;
+    margin: 20px 10px;
+}
+
+.objetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.objetos p{
+    font-size: 12px;
+}
+
+
+
+.logos {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+
+}
+
+footer span{
+    color: #F13294;
+}
+
+.Button_descargar{
+    color: white;
+    background-image: linear-gradient(to right, rgb(175, 54, 245), #1b2cc4);
+    padding: 10px;
+    width: 110px;
+    height: 40px;
+    border-radius: 3%;
+    cursor: pointer;
+    border: none;
+  }
+
+
+  .button1{
+    color:  #ff008c;
+    margin-right: 10px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
+  .button2{
+    background-color:  rgba(21, 8, 56, 0.63);
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5%;
+    cursor: pointer;
+    border-color: white;
+  }
+
+
+    .border{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255) ;
+        width: 230px;
+  }
+
+
+  .color4{
+    color: #ffffff;
+    background-color: #2E2550;
+    border: 0px;
+    border-radius: 5px;
+    
+
+  }
+
+@media  (max-width:1279px) {
+    .section4 .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media  (max-width:920px) {
+  .section5 .section5-P{
+    font-size: 18px;
+   }
+}
+
+
+
+@media  (max-width:768px) {
+    .phone{
+        width: 150px;
+      
+    }
+     .section4 .box1 img{
+        width: 300px;
+     }
+
+     .section4 .box2 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    
+     }
+
+     .section2 h1{
+        font-size: 40px;
+     }
+     .section2 p {
+        font-size: 20px;
+        
+     }
+}
+
+
+
+@media  (max-width:480px) {
+    .section1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .section2{
+        width: 100%;
+    }
+    .section3{
+    width: 85%;
+    }
+
+    .section4 h2{
+        font-size: 30px;
+    }
+    .section4 .box2 {
+        
+        display: flex;
+        width: -0px;
+        align-items: center;
+       
+    
+     }
+    .section4 .box2 p{
+        width: 300px;
+        font-size: 15px;
+     
+       
+        
+    }
+}
